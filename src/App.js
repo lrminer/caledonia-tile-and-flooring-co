@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import {
-  // Button,
   Navbar,
   Nav,
-  // NavDropdown,
   Form,
-  // FormControl,
   Carousel,
 } from "react-bootstrap";
 function App() {
@@ -136,11 +133,11 @@ const CustomNavbar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/caledonia-tile-and-flooring-co/">About</Nav.Link>
-          <Nav.Link href="/caledonia-tile-and-flooring-co/portfolio">
+          <Nav.Link href="/about">About</Nav.Link>
+          <Nav.Link href="/portfolio">
             Portfolio
           </Nav.Link>
-          <Nav.Link href="/caledonia-tile-and-flooring-co/contact">
+          <Nav.Link href="/contact">
             Contact
           </Nav.Link>
         </Nav>
