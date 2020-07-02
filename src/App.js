@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import { Navbar, Nav, Form, Carousel } from "react-bootstrap";
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
             <CustomNavbar />
           </div>
         </div>
+
 
         <div>
           <Route exact path={["/", "/about"]}>
