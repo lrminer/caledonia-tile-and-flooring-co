@@ -15,12 +15,17 @@ function App() {
       <div className="App container-fluid">
         <div className="row d-none d-md-block">
           <div className="col p-0">
-            <CustomNavbar></CustomNavbar>
+            <CustomNavbar />
           </div>
         </div>
-
         <Switch>
-          <Route exact path={["/caledonia-tile-and-flooring-co/", "/caledonia-tile-and-flooring-co/about"]}>
+          <Route
+            exact
+            path={[
+              "/caledonia-tile-and-flooring-co/",
+              "/caledonia-tile-and-flooring-co/about",
+            ]}
+          >
             <div className="row">
               <div className="col">
                 <h1>About Us</h1>
@@ -103,7 +108,7 @@ function App() {
           <Route exact path="/caledonia-tile-and-flooring-co/portfolio">
             <div className="row">
               <div className="col p-0">
-                <ControlledCarousel></ControlledCarousel>
+                <ControlledCarousel />
               </div>
             </div>
           </Route>
@@ -117,7 +122,7 @@ function App() {
         </Switch>
         <div className="row d-block d-md-none fixed-bottom">
           <div className="col p-0">
-            <CustomNavbar></CustomNavbar>
+            <CustomNavbar />
           </div>
         </div>
       </div>
@@ -132,8 +137,12 @@ const CustomNavbar = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="/caledonia-tile-and-flooring-co/">About</Nav.Link>
-          <Nav.Link href="/caledonia-tile-and-flooring-co/portfolio">Portfolio</Nav.Link>
-          <Nav.Link href="/caledonia-tile-and-flooring-co/contact">Contact</Nav.Link>
+          <Nav.Link href="/caledonia-tile-and-flooring-co/portfolio">
+            Portfolio
+          </Nav.Link>
+          <Nav.Link href="/caledonia-tile-and-flooring-co/contact">
+            Contact
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
