@@ -108,13 +108,13 @@ function App() {
 }
 const CustomNavbar = () => {
   return (
-    <Navbar collapseOnSelect bg="dark" expand="lg" variant="dark">
+    <Navbar collapseOnSelect={true} bg="dark" expand="md" variant="dark">
       <Navbar.Brand className="p-3" href="#home">
         Caledonia Tile & Flooring Co.
       </Navbar.Brand>
-      <Navbar.Toggle as="button" aria-controls="basic-navbar-nav" />
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse
-        className="d-flex flex-md-row justify-content-end"
+        className="d-flex align-items-center justify-content-center justify-content-md-end"
         id="basic-navbar-nav"
       >
         <Nav className="d-flex flex-md-row">
