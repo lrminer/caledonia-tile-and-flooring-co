@@ -109,7 +109,7 @@ function App() {
 const CustomNavbar = () => {
   return (
     <Navbar bg="dark" expand="lg" variant="dark">
-      <Navbar.Brand className="p-5" href="#home">
+      <Navbar.Brand className="p-3" href="#home">
         Caledonia Tile & Flooring Co.
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
