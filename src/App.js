@@ -22,8 +22,8 @@ function App() {
           <Route
             exact
             path={[
-              "/caledonia-tile-and-flooring-co/",
-              "/caledonia-tile-and-flooring-co/about",
+              "/",
+              "/about",
             ]}
           >
             <div className="row">
@@ -105,14 +105,14 @@ function App() {
               </div>
             </div>
           </Route>
-          <Route exact path="/caledonia-tile-and-flooring-co/portfolio">
+          <Route exact path="/portfolio">
             <div className="row">
               <div className="col p-0">
                 <ControlledCarousel />
               </div>
             </div>
           </Route>
-          <Route exact path="/caledonia-tile-and-flooring-co/contact">
+          <Route exact path="/contact">
             <div className="row">
               <div className="col p-0">
                 <MyForm />
