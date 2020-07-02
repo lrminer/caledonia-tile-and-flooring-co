@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/caledonia-tile-and-flooring-co/precache-manifest.aa9790a6a44b51e9f59aeaee68995366.js"
+  "/caledonia-tile-and-flooring-co/precache-manifest.d0358ef20d74ffdaca7ed570903730a8.js"
 );
 
 self.addEventListener('message', (event) => {
