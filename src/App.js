@@ -108,23 +108,31 @@ function App() {
 }
 const CustomNavbar = () => {
   return (
-    <div className="row">
-      <div className="col p-0">
-        <Navbar bg="dark" expand="lg" variant="dark">
-          <Navbar.Brand href="#home">
-            Caledonia Tile & Flooring Co.
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
-              <Nav.Link href="/about"><Link style={{color: 'inherit'}} to="/about">About</Link></Nav.Link>
-              <Nav.Link href="/portfolio"><Link style={{color: 'inherit'}} to="/portfolio">Portfolio</Link></Nav.Link>
-              <Nav.Link href="/contact"><Link style={{color: 'inherit'}} to="/contact">Contact</Link></Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-      </div>
-    </div>
+    <Navbar bg="dark" expand="lg" variant="dark">
+      <Navbar.Brand className="p-5" href="#home">
+        Caledonia Tile & Flooring Co.
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link href="/about">
+            <Link className="p-3" style={{ color: "white" }} to="/about">
+              <h5>About</h5>
+            </Link>
+          </Nav.Link>
+          <Nav.Link href="/portfolio">
+            <Link className="p-3" style={{ color: "white" }} to="/portfolio">
+              <h5>Portfolio</h5>
+            </Link>
+          </Nav.Link>
+          <Nav.Link href="/contact">
+            <Link className="p-3" style={{ color: "white" }} to="/contact">
+              <h5>Contact</h5>
+            </Link>
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 const ControlledCarousel = () => {
