@@ -118,7 +118,7 @@ const CustomNavbar = () => {
         id="basic-navbar-nav"
       >
         <Nav className="d-flex flex-md-row">
-          <Nav.Link className="" href="/about">
+          <Nav.Link className="">
             <Link
               className="p-3 text-center"
               style={{ color: "white" }}
@@ -127,7 +127,7 @@ const CustomNavbar = () => {
               <h5>About</h5>
             </Link>
           </Nav.Link>
-          <Nav.Link className="" href="/portfolio">
+          <Nav.Link className="">
             <Link
               className="p-3 text-center"
               style={{ color: "white" }}
@@ -136,7 +136,7 @@ const CustomNavbar = () => {
               <h5>Portfolio</h5>
             </Link>
           </Nav.Link>
-          <Nav.Link className="" href="/contact">
+          <Nav.Link className="">
             <Link
               className="p-3 text-center"
               style={{ color: "white" }}
