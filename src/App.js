@@ -1,16 +1,15 @@
 import React, { useState } from "react";
-import { HashRouter, Route } from "react-router-dom";
+import { HashRouter, Route, Link } from "react-router-dom";
 import { Navbar, Nav, Form, Carousel } from "react-bootstrap";
 function App() {
   return (
-    <HashRouter basename="/caledonia-tile-and-flooring-co">
+    <HashRouter basename="/">
       <div className="App container-fluid">
         <div className="row d-none d-md-block">
           <div className="col p-0">
             <CustomNavbar />
           </div>
         </div>
-
 
         <div>
           <Route exact path={["/", "/about"]}>
@@ -93,19 +92,9 @@ function App() {
               </div>
             </div>
           </Route>
-          <Route exact path="/portfolio">
-            <div className="row">
-              <div className="col p-0">
-                <ControlledCarousel />
-              </div>
-            </div>
-          </Route>
-          <Route exact path="/contact">
-            <div className="row">
-              <div className="col p-0">
-                <MyForm />
-              </div>
-            </div>
+          <Route exact path="/portfolio" component={ControlledCarousel}></Route>
+          <Route exact path="/contact" component={MyForm}>
+            <MyForm />
           </Route>
         </div>
         <div className="row d-block d-md-none fixed-bottom">
@@ -128,9 +117,9 @@ const CustomNavbar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="about">About</Nav.Link>
-              <Nav.Link href="portfolio">Portfolio</Nav.Link>
-              <Nav.Link href="contact">Contact</Nav.Link>
+              <Nav.Link href="/about"><Link style={{color: 'inherit'}} to="/about">About</Link></Nav.Link>
+              <Nav.Link href="/portfolio"><Link style={{color: 'inherit'}} to="/portfolio">Portfolio</Link></Nav.Link>
+              <Nav.Link href="/contact"><Link style={{color: 'inherit'}} to="/contact">Contact</Link></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
