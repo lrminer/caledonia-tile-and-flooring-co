@@ -113,20 +113,35 @@ const CustomNavbar = () => {
         Caledonia Tile & Flooring Co.
       </Navbar.Brand>
       <Navbar.Toggle as="button" aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link href="/about">
-            <Link className="p-3 text-center" style={{ color: "white" }} to="/about">
+      <Navbar.Collapse
+        className="d-flex flex-md-row justify-content-end"
+        id="basic-navbar-nav"
+      >
+        <Nav className="d-flex flex-md-row">
+          <Nav.Link className="" href="/about">
+            <Link
+              className="p-3 text-center"
+              style={{ color: "white" }}
+              to="/about"
+            >
               <h5>About</h5>
             </Link>
           </Nav.Link>
-          <Nav.Link href="/portfolio">
-            <Link className="p-3 text-center" style={{ color: "white" }} to="/portfolio">
+          <Nav.Link className="" href="/portfolio">
+            <Link
+              className="p-3 text-center"
+              style={{ color: "white" }}
+              to="/portfolio"
+            >
               <h5>Portfolio</h5>
             </Link>
           </Nav.Link>
-          <Nav.Link href="/contact">
-            <Link className="p-3 text-center" style={{ color: "white" }} to="/contact">
+          <Nav.Link className="" href="/contact">
+            <Link
+              className="p-3 text-center"
+              style={{ color: "white" }}
+              to="/contact"
+            >
               <h5>Contact</h5>
             </Link>
           </Nav.Link>
