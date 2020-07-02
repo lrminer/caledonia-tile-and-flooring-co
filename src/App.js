@@ -19,8 +19,8 @@ function App() {
           <Route
             exact
             path={[
-              "/",
-              "/about",
+              "/caledonia-tile-and-flooring-co/",
+              "/caledonia-tile-and-flooring-co/about",
             ]}
           >
             <div className="row">
@@ -102,14 +102,14 @@ function App() {
               </div>
             </div>
           </Route>
-          <Route exact path="/portfolio">
+          <Route exact path="/caledonia-tile-and-flooring-co/portfolio">
             <div className="row">
               <div className="col p-0">
                 <ControlledCarousel />
               </div>
             </div>
           </Route>
-          <Route exact path="/contact">
+          <Route exact path="/caledonia-tile-and-flooring-co/contact">
             <div className="row">
               <div className="col p-0">
                 <MyForm />
@@ -133,11 +133,11 @@ const CustomNavbar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/about">About</Nav.Link>
-          <Nav.Link href="/portfolio">
+          <Nav.Link href="/caledonia-tile-and-flooring-co/about">About</Nav.Link>
+          <Nav.Link href="/caledonia-tile-and-flooring-co/portfolio">
             Portfolio
           </Nav.Link>
-          <Nav.Link href="/contact">
+          <Nav.Link href="/caledonia-tile-and-flooring-co/contact">
             Contact
           </Nav.Link>
         </Nav>
