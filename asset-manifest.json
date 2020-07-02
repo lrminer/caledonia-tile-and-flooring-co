@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/caledonia-tile-and-flooring-co/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/caledonia-tile-and-flooring-co/static/js/main.0745e369.chunk.js",
+    "main.js.map": "/caledonia-tile-and-flooring-co/static/js/main.0745e369.chunk.js.map",
+    "runtime-main.js": "/caledonia-tile-and-flooring-co/static/js/runtime-main.4648d789.js",
+    "runtime-main.js.map": "/caledonia-tile-and-flooring-co/static/js/runtime-main.4648d789.js.map",
+    "static/js/2.64640f14.chunk.js": "/caledonia-tile-and-flooring-co/static/js/2.64640f14.chunk.js",
+    "static/js/2.64640f14.chunk.js.map": "/caledonia-tile-and-flooring-co/static/js/2.64640f14.chunk.js.map",
+    "index.html": "/caledonia-tile-and-flooring-co/index.html",
+    "precache-manifest.24badd017020c7f2dacebcc6824072e5.js": "/caledonia-tile-and-flooring-co/precache-manifest.24badd017020c7f2dacebcc6824072e5.js",
+    "service-worker.js": "/caledonia-tile-and-flooring-co/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/caledonia-tile-and-flooring-co/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.64640f14.chunk.js.LICENSE.txt": "/caledonia-tile-and-flooring-co/static/js/2.64640f14.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4648d789.js",
+    "static/js/2.64640f14.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.0745e369.chunk.js"
+  ]
+}
