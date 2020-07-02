@@ -108,25 +108,25 @@ function App() {
 }
 const CustomNavbar = () => {
   return (
-    <Navbar bg="dark" expand="lg" variant="dark">
+    <Navbar collapseOnSelect bg="dark" expand="lg" variant="dark">
       <Navbar.Brand className="p-3" href="#home">
         Caledonia Tile & Flooring Co.
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Toggle as="button" aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="/about">
-            <Link className="p-3" style={{ color: "white" }} to="/about">
+            <Link className="p-3 text-center" style={{ color: "white" }} to="/about">
               <h5>About</h5>
             </Link>
           </Nav.Link>
           <Nav.Link href="/portfolio">
-            <Link className="p-3" style={{ color: "white" }} to="/portfolio">
+            <Link className="p-3 text-center" style={{ color: "white" }} to="/portfolio">
               <h5>Portfolio</h5>
             </Link>
           </Nav.Link>
           <Nav.Link href="/contact">
-            <Link className="p-3" style={{ color: "white" }} to="/contact">
+            <Link className="p-3 text-center" style={{ color: "white" }} to="/contact">
               <h5>Contact</h5>
             </Link>
           </Nav.Link>
